@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Arithmatic opparation calculator</title>
+</head>
+
+<body>
+	<div class="form-bg">
+		<h1>Calculate Number:</h1>
+		<div class="input-area">
+			<input type="text" placeholder="Enter The 1st Number" id="num1">
+			<input type="text" placeholder="Enter The 2nd Number" id="num2">
+			<input type="text" placeholder="Enter The 3rd Number" id="num3">
+			<input type="text" placeholder="Enter The 4th Number" id="num4">
+			<input type="text" placeholder="Enter The 5th Number" id="num5">
+		</div>
+
+		<div class="result-area">
+			<div class="add">
+				<button onclick="addShow()">ADD</button>
+				<p id="add-result"></p>
+			</div>
+
+			<div class="sub">
+				<button onclick="subShow()">SUB</button>
+				<p id="sub-result"></p>
+			</div>
+
+			<div class="mul">
+				<button onclick="mulShow()">MUL</button>
+				<p id="mul-result"></p>
+			</div>
+
+			<div class="div">
+				<button onclick="divShow()">DIV</button>
+				<p id="div-result"></p>
+			</div>
+
+			<div class="avg">
+				<button onclick="avgShow()">AVG</button>
+				<p id="avg-result"></p>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/custom.js"></script>
+</body>
+
+</html>

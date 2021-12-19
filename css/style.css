@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.form-bg {
+  width: 660px;
+  height: 500px;
+  background-color: #1b1b1b;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.form-bg h1 {
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+
+.form-bg .input-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-bg .input-area input {
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid black;
+  transition: all linear 0.4s;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.form-bg .input-area input:hover {
+  background-color: #da0000;
+  color: #fff;
+  border: 1px solid #fff;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.form-bg .result-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-bg .result-area button {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 15px;
+  background-color: #e60000;
+}
+
+.form-bg .result-area p {
+  padding-left: 40px;
+  color: #fff;
+}
